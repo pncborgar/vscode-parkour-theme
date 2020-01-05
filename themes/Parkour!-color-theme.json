@@ -4,12 +4,26 @@
 	"colors": {
 		"editor.background": "#171d24",
 		"editor.foreground": "#e7e7e7",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBar.background": "#171d24",
+		"activityBar.background": "#171d24",
+		"statusBar.background": "#171d24",
+		"activityBarBadge.background": "#2fa34f",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"titleBar.activeBackground": "#171d24",
+		"titleBar.inactiveBackground": "#171d24",
+		"editorGroupHeader.tabsBackground": "#171d24",
+		"tab.activeForeground": "#fff",
+		"tab.inactiveForeground": "#fff9",
+		"tab.activeBackground": "#171d24",
+		"tab.inactiveBackground": "#171d24",
+		"tab.border": "#0000",
+		"tab.activeBorder": "#2fa34f",
+		"widget.shadow": "#0002",
+		"editorGroupHeader.noTabsBackground": "#171d24"
 	},
 	"tokenColors": [
 		{
-			"scope": "source",
+			"scope": ["source", "variable"],
 			"settings": {
 				"foreground": "#e7e7e7"
 			}
@@ -72,7 +86,7 @@
 			}
 		},
 		{
-			"scope": ["punctuation.definition.block", "punctuation.terminator", "meta.brace", "punctuation.definition", "punctuation.separator", "keyword.operator.type", "keyword.operator.spread", "punctuation.destructuring", "punctuation.accessor"],
+			"scope": ["punctuation.definition.block", "punctuation.terminator", "meta.brace", "punctuation.definition", "punctuation.separator", "punctuation.destructuring", "punctuation.accessor", "keyword.operator"],
 			"settings": {
 				"foreground": "#65657c"
 			}
@@ -92,7 +106,7 @@
 			}
 		},
 		{
-			"scope": ["variable.other.property", "meta.object-literal.key"],
+			"scope": ["variable.other.property", "meta.object-literal.key", "support.variable.property"],
 			"settings": {
 				"foreground": "#abcdef"
 			}
