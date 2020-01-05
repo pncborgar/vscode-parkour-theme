@@ -1,0 +1,21 @@
+{
+    "name": "parkour",
+    "displayName": "Parkour!",
+    "description": "A VSCode theme you'll fall in love soon.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Parkour!",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Parkour!-color-theme.json"
+            }
+        ]
+    }
+}
