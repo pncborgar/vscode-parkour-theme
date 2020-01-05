@@ -9,6 +9,12 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "source",
+			"settings": {
+				"foreground": "#e7e7e7"
+			}
+		},
+		{
 			"scope": ["constant.numeric"],
 			"settings": {
 				"foreground": "#ff8080"
@@ -28,7 +34,7 @@
 			}
 		},
 		{
-			"scope": ["keyword.operator.arithmetic", "keyword.operator.assignment", "storage.type.function.arrow", "keyword.operator.comparison", "keyword.operator.logical"],
+			"scope": ["keyword.operator.arithmetic", "keyword.operator.assignment", "storage.type.function.arrow", "keyword.operator.comparison", "keyword.operator.logical", "keyword.operator.ternary"],
 			"settings": {
 				"foreground": "#d8a1ff"
 			}
@@ -59,7 +65,7 @@
 			}
 		},
 		{
-			"scope": ["punctuation.definition.block", "punctuation.terminator", "meta.brace", "punctuation.definition", "punctuation.separator", "keyword.operator.type", "keyword.operator.spread", "punctuation.destructuring"],
+			"scope": ["punctuation.definition.block", "punctuation.terminator", "meta.brace", "punctuation.definition", "punctuation.separator", "keyword.operator.type", "keyword.operator.spread", "punctuation.destructuring", "punctuation.accessor"],
 			"settings": {
 				"foreground": "#65657c"
 			}
