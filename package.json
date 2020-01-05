@@ -1,7 +1,7 @@
 {
     "name": "parkour",
     "displayName": "Parkour!",
-    "description": "A VSCode theme you'll fall in love soon.",
+    "description": "A VSCode theme you'll fall in love with soon.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.41.0"
