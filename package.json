@@ -3,6 +3,8 @@
     "displayName": "Parkour!",
     "description": "A VSCode theme you'll fall in love with soon.",
     "version": "0.0.1",
+    "publisher": "hkh12",
+    "license": "SEE LICENSE IN LICENSE",
     "engines": {
         "vscode": "^1.41.0"
     },
