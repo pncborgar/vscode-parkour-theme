@@ -19,13 +19,27 @@
 		"tab.border": "#0000",
 		"tab.activeBorder": "#2fa34f",
 		"widget.shadow": "#0002",
-		"editorGroupHeader.noTabsBackground": "#171d24"
+		"editorGroupHeader.noTabsBackground": "#171d24",
+		"editorLineNumber.foreground": "#ffffff36",
+		"editorLineNumber.activeForeground": "#ff0000",
+		"editor.lineHighlightBackground": "#fff1",
+		"editor.lineHighlightBorder": "#0000",
+		"editorBracketMatch.border": "#f1f58c",
+		"editorHoverWidget.background": "#171d24",
+		"editorHoverWidget.border": "#fff1",
+		"editorSuggestWidget.background": "#171d24",
+		"editorSuggestWidget.border": "#fff1",
+		"editorSuggestWidget.highlightForeground": "#f1f58c",
+		"editorSuggestWidget.selectedBackground": "#fff1",
+		"list.hoverBackground": "#fff1",
+		"editor.selectionBackground": "#ffffff18",
+		"editor.wordHighlightBackground": "#f1f58c1a"
 	},
 	"tokenColors": [
 		{
 			"scope": ["source", "variable"],
 			"settings": {
-				"foreground": "#e7e7e7"
+				"foreground": "#cacaca"
 			}
 		},
 		{
@@ -120,7 +134,7 @@
 		{
 			"scope": ["variable.other.property", "meta.object-literal.key", "support.variable.property"],
 			"settings": {
-				"foreground": "#abcdef"
+				"foreground": "#8599FF"
 			}
 		}
 	]
